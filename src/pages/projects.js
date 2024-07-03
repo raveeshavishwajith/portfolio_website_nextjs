@@ -4,7 +4,9 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/personal_portfolio.png";
+import project2 from "../../public/images/projects/web_project.png";
+import project3 from "../../public/images/projects/fashion-studio-website.jpg";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -129,35 +131,35 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32">
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
+                title="Personal Portfolio"
                 link="/"
                 type="Featured Project"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                summary="The portfolio showcases my web development projects, including a feature-rich Crypto Screener App. The portfolio highlights my skills in responsive design, user experience (UX) design, and modern web development frameworks."
                 img={project1}
-                github="/"
+                github="https://github.com/raveeshavishwajith/portfolio_website_nextjs"
               />
             </div>
 
             <div className="col-span-6">
               <Project
-                title="Crypto Screener Application"
+                title="Electronic Health Record System"
                 link="/"
                 type="Featured Project"
-                img={project1}
+                img={project2}
                 github="/"
               />
             </div>
             <div className="col-span-6">
               <Project
-                title="Crypto Screener Application"
+                title="Fashion Studio Website"
                 link="/"
                 type="Featured Project"
-                img={project1}
+                img={project3}
                 github="/"
               />
             </div>
 
-            <div className="col-span-12">
+            {/* <div className="col-span-12">
               <FeaturedProject
                 title="Crypto Screener Application"
                 link="/"
@@ -184,7 +186,7 @@ const projects = () => {
                 img={project1}
                 github="/"
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>

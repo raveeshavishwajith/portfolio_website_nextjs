@@ -14,21 +14,9 @@ const Contact = () => {
             text={"Contact Us"}
             className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
-          <div className="grid grid-cols-12 gap-24 gap-y-32">
-            <form>
-              <div className="col-span-12 pb-2">
-                <input type="text" />
-              </div>
-              <div className="col-span-12 pb-2">
-                <input type="text" />
-              </div>
-              <div className="col-span-12 pb-2">
-                <input type="text" />
-              </div>
-              <div className="col-span-12 pb-2">
-                <input type="text" />
-              </div>
-            </form>
+          <div className="grid text-center w-full pt-36 pb-28">
+            <p className="text-4xl pb-10">E-mail : raveeshavishwajith@gmail.com</p>
+            <p className="text-4xl">Mobile : 071 - 714 4135</p>
           </div>
         </Layout>
       </main>

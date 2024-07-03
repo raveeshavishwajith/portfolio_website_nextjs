@@ -16,7 +16,7 @@ const Details = ({ type, time, place, info }) => {
         transition={{ duration: 0.5, type: "spring" }}
       >
         <h3 className="capitalize font-bold text-2xl">{type}</h3>
-        <span className="font-medium capitalize text-dark/75 ">
+        <span className="font-medium capitalize text-dark/75 dark:text-light">
           {time} | {place}
         </span>
         <p className="font-medium w-full">{info}</p>
@@ -41,22 +41,22 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
-            type="BSc in Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
-          />
-          <Details
-            type="Master Of Computer Science"
-            time="2020-2022"
-            place="Stanford University"
-            info="Completed a master's project on deep learning, developing a new neural network architecture for natural language understanding."
-          />
-          <Details
             type="Online Coursework"
-            time="2016-2020"
+            time="2019-2021"
             place="Coursera And EdX"
             info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine Learning Engineering."
+          />
+          <Details
+            type="Certificate Course of Web Designing"
+            time="2020-2021"
+            place="University of Colombo School of Computing (UCSC)"
+            info="Relevant courses included HTML & CSS, JavaScript, Responsive Design, User Experience (UX) Design, and React.js."
+          />
+          <Details
+            type="BSc in Computer Science"
+            time="2021-Present"
+            place="University of Jaffna"
+            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
           />
         </ul>
       </div>
