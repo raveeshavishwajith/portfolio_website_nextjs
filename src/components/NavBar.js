@@ -97,7 +97,7 @@ const NavBar = () => {
 
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href="https://github.com"
+            href="https://github.com/raveeshavishwajith"
             target={"_blank"}
             className="w-6 mr-3"
             whileHover={{ y: -2 }}
@@ -106,7 +106,7 @@ const NavBar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/raveeshavishwajith/"
             target={"_blank"}
             className="w-6 mx-3"
             whileHover={{ y: -2 }}
@@ -115,7 +115,7 @@ const NavBar = () => {
             <LinkedInIcon />
           </motion.a>
           <motion.a
-            href="https://pinterest.com/"
+            href="https://www.pinterest.com/raveeshavishwajith"
             target={"_blank"}
             className="w-6 mx-3"
             whileHover={{ y: -2 }}
@@ -133,7 +133,7 @@ const NavBar = () => {
             <TwitterIcon />
           </motion.a>
           <motion.a
-            href="https://instagram.com"
+            href="https://www.instagram.com/raveesha_vishwajith"
             target={"_blank"}
             className="w-6 ml-3"
             whileHover={{ y: -2 }}
@@ -183,7 +183,7 @@ const NavBar = () => {
 
           <nav className="flex items-center justify-center flex-wrap mt-2">
             <motion.a
-              href="https://github.com"
+              href="https://github.com/raveeshavishwajith"
               target={"_blank"}
               className="w-6 mr-3 sm:mx-1"
               whileHover={{ y: -2 }}
@@ -192,7 +192,7 @@ const NavBar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/raveeshavishwajith/"
               target={"_blank"}
               className="w-6 mx-3 sm:mx-1"
               whileHover={{ y: -2 }}
@@ -201,7 +201,7 @@ const NavBar = () => {
               <LinkedInIcon />
             </motion.a>
             <motion.a
-              href="https://pinterest.com/"
+              href="https://www.pinterest.com/raveeshavishwajith"
               target={"_blank"}
               className="w-6 mx-3 sm:mx-1"
               whileHover={{ y: -2 }}
@@ -219,7 +219,7 @@ const NavBar = () => {
               <TwitterIcon />
             </motion.a>
             <motion.a
-              href="https://instagram.com"
+              href="https://instagram.com/raveesha_vishwajith"
               target={"_blank"}
               className="w-6 ml-3"
               whileHover={{ y: -2 }}
